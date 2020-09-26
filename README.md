@@ -3,7 +3,7 @@ Python script for scraping flight prices from Expedia.ie
 
 ## Getting Started
 
-Just a stand standard python script currently, I will need to change it into a package once it becomes for advanced. All you need to do currently is set the directory for ChromeDriver and the script can be used.
+Just a stand standard python script currently, I will need to change it into a package once it becomes for advanced. All you need to do is set the directory for ChromeDriver and the script can be used.
 
 
 ## Prerequesites 
