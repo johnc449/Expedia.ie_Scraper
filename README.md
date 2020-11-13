@@ -1,5 +1,5 @@
 # Expedia.ie_Scraper
-Python script for scraping flight prices from Expedia.ie
+Python script for scraping flight prices from Expedia.ie, also includes code for emailing prices.
 
 ## Getting Started
 
