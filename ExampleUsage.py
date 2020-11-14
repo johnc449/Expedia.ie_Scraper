@@ -10,7 +10,7 @@ with open("EuropeanAirportCodes.txt", "r") as airportList:      #opens list of I
         stripped_line= line.strip()    #cleans the line up
         for price in Main.price("DUB",stripped_line,[str(day),str(month),"2020"],[str(int(day)+3),str(month),"2020"],"1"):   #loops over returned prices
             print(price)       
-            if(price.isdigit()==True and float(price)<30):   #ignores prices over £1000, because who wants to pay over £1000 for a flight? I'll fix this later
+            if(price.isdigit()==True and float(price)<30):  
                                                            #sends email if price is below 30 Euros 
                 Main.sendEmailToMyself(price+"    "+str(day)+
                                        " "+str(month) ,"Good Price "
